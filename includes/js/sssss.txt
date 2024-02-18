@@ -1,0 +1,19 @@
+ <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.maskedinput.js" type="text/javascript"></script>
+        <script>
+        jQuery(function($){
+        $("#nic").mask("99999-9999999-9");
+        $("#date").mask("99/99/9999");
+        $("#phone").mask("(999) 999-999-99");
+        $("#ext").mask("(999) 999-9999? Ext.99999");
+        $("#mobile").mask("99999999999");
+        $("#apno").mask("99999999999");
+        $("#hno").mask("99");
+        $("#percent").mask("99%");
+        $("#productkey").mask("a*-999-a999");
+        $("#orderno").mask("PO: aaa-999-***");
+        $("#date2").mask("99/99/9999", { autoclear: false });
+        $("#date3").mask("99/99/9999", { autoclear: false, completed:function(){alert("Completed!");} });
+        $("#mobile2").mask("+1 999 999 999");
+        });
+      </script>

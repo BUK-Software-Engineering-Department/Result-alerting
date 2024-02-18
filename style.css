@@ -1,0 +1,19 @@
+ li a{
+    font: 15px bold tahoma ;
+    color: white;
+  }
+  li{
+    font-style: none;
+    font: 20px bold tahoma;
+    list-style: none;
+
+  }
+
+.main{
+	margin-top:-60px;
+	height: 500px;
+
+	background-image:url('pics.jpg');
+	background-color: white;
+
+}
